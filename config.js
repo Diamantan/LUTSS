@@ -38,10 +38,8 @@ config = {
   development: {
     url: 'http://localhost:2368',
     database: {
-      client: 'sqlite3',
-      connection: {
-        filename: path.join(__dirname, '/content/data/ghost-dev.db')
-      },
+      client: 'postgres',
+      connection: 'postgres://athuddqmwhxjpz:JkGZ7YvVOzd2D29z5UpSD9gScC@ec2-54-247-68-87.eu-west-1.compute.amazonaws.com:5432/d93jqcgbc14p2q?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory',
       debug: false
     },
     server: {
