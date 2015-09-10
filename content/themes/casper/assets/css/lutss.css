@@ -99,3 +99,55 @@
     Header
 */
 
+
+/*
+    Nav
+*/
+
+.nav {
+    opacity: 0.5;
+}
+
+.main-nav.overlay .menu-button {
+    position: fixed;
+    right: 20px;
+}
+
+
+/*
+    Pages, Tags
+*/
+
+.tag-donate .post-header, .tag-donate .post-footer, .tag-about .post-header, .tag-about .post-footer, .tag-impressum .post-header, .tag-impressum .post-footer {
+    display: none;
+}
+
+.tag-about, .tag-impressum {
+
+}
+
+.poweredby {
+    display: none;
+}
+
+
+#content .tag-donate {
+    display: none;
+}
+
+#content .tag-impressum {
+    display: none;
+}
+
+
+/*logo */
+
+header.no-cover {
+    background: url('../../../../content/images/2015/09/lutss_logo_800.png') no-repeat 50% !important;
+    background-size: contain !important;
+    margin-bottom: 100px !important;
+}
+
+.tag-about .blog-logo, .tag-donate .blog-logo, .tag-impressum .blog-logo {
+    display: none;
+}
