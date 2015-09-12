@@ -150,3 +150,8 @@ header.no-cover {
 .tag-contact .blog-logo, .tag-about .blog-logo, .tag-donate .blog-logo, .tag-impressum .blog-logo {
     display: none;
 }
+
+/*Blog traces*/
+.pagination {
+    display: none;
+}
