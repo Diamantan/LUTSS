@@ -20,10 +20,6 @@
             $("body").toggleClass("nav-opened nav-closed");
         });
 
-        $(".arctic_scroll").arctic_scroll({
-            speed: 800
-        });
-
     });
 
     // Arctic Scroll by Paul Adam Davis

@@ -3,7 +3,7 @@
 */
 
 .post-template .post-head.main-header {
-    height: 100vh;
+    height: 45vh; /*100vh*/
 }
 
 .post-template .post-header {
@@ -51,7 +51,7 @@
 /*
     Contact page
 */
-
+/*
 .tag-contact a {
     text-decoration: none;
 }
@@ -92,7 +92,7 @@
 
 .post-footer {
     border-top: #ccc 1px solid;
-}
+}*/
 
 
 /*
@@ -141,13 +141,12 @@
 
 
 /*logo */
-
 header.no-cover {
     background: url('../../../../content/images/2015/09/lutss_logo_800.png') no-repeat 50% !important;
     background-size: contain !important;
     margin-bottom: 100px !important;
 }
 
-.tag-about .blog-logo, .tag-donate .blog-logo, .tag-impressum .blog-logo {
+.tag-contact .blog-logo, .tag-about .blog-logo, .tag-donate .blog-logo, .tag-impressum .blog-logo {
     display: none;
 }
